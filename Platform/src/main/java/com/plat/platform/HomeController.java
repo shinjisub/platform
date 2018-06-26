@@ -27,9 +27,9 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		
-		/*╣╔юлем ев╫╨ф╝╥н ╟║а╝©ю╠Б*/
+		/*О©╫О©╫О©╫О©╫О©╫О©╫ О©╫в╫О©╫ф╝О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫*/
 		int  m = testDao.TestDAO();
-		System.out.println("╣╔юлем ╟║а╝©б : "+m);
+		System.out.println("О©╫О©╫О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫ : Ц┘│Ц┘│"+m);
 		
 		model.addAttribute("serverTime", formattedDate );
 		
